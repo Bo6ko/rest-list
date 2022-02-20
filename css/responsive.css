@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+	#posts .main {
+		width: 100%;
+	}
+	#posts .description {
+		width: calc(100% - 30px);
+	}
+  }

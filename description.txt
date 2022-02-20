@@ -1,0 +1,9 @@
+
+The solution is simple. I just get resources from your service (http://www.mocky.io/v2/5c4350a23800004c00072e0a) and write it in variable posts, where I save this information. I do the same thing for categories (http://www.mocky.io/v2/5c43503a3800006f00072e08).
+
+When I save categories in variable I use this solution. categories[result.categories[i].id] = result.categories[i];
+So in this way I rewrite a little bit this object, but in this way I can call every category by id without having to loop categories. I just loop posts resources and then when I want to display the category I can do this by category key like this:
+'<h2>Category: ' + categories[post.category].title + '</h2>' +
+I use that for a little bit performance. That will be a little bit faster because you don't loop categories again.
+
+Another part of task 3 are filters. You can order this posts in ASC and DESC by click event to this buttons. And also I add one dropdown with all categories so by choosing any category in this drop down you can see just this results about the choosing category. And one more button Show all - you can see again all categories by clicking to this button.

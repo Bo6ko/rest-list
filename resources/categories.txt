@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Nam et sodales"
+        },
+        {
+            "id": 2,
+            "title": "Mauris sed mollis"
+        },
+        {
+            "id": 3,
+            "title": "Turpis non porta"
+        },
+        {
+            "id": 4,
+            "title": "Nunc sollicitudin"
+        },
+        {
+            "id": 5,
+            "title": "Donec eget"
+        },
+        {
+            "id": 6,
+            "title": "Duis aliquam"
+        },
+        {
+            "id": 7,
+            "title": "Sapien in metus"
+        },
+        {
+            "id": 8,
+            "title": "Donec eget"
+        },
+        {
+            "id": 9,
+            "title": "Dui vestibulum"
+        }
+    ]
+}
